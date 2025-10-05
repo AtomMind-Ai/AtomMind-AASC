@@ -1,5 +1,3 @@
-# core/stores.py
-
 import os
 import json
 from datetime import datetime
@@ -75,3 +73,4 @@ def get_summary_for_agents(project_name: str, upto_subtask_idx: int = None) -> s
         summary_lines.append("-" * 50)
 
     return "\n".join(summary_lines)
+
