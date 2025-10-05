@@ -1,5 +1,3 @@
-# agents/reporter_agent.py
-
 import os
 from core.memory import list_memory, recall
 from core.logger import get_logger
@@ -71,3 +69,4 @@ class ReporterAgent:
             f.write(report)
         logger.info(f"Project report saved to {path}")
         return path
+
