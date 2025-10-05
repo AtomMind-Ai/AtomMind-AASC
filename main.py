@@ -53,6 +53,4 @@ def main(fresh_start):
                 print("-" * 50)
 
 if __name__ == "__main__":
-    # Run fresh start test
     main(fresh_start=True)
-
