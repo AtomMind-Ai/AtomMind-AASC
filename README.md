@@ -10,8 +10,12 @@ An open-source autonomous micro-company framework for AI-driven IT & software pr
 - Runs on any laptop without GPU requirements
 
 ## How to Run
+1. Clone the Repo
+```bash
+git clone https://github.com/AtomMind-Ai/AtomMind-AASC.git
+```
+2. Then
+  - Install requirements: `pip install -r requirements.txt`
+  - Replace `CEREBRAS_API_KEY=csk-your-api-key...` with your Cerebras api key
+  - Run the system: `python main.py`
 
-> `main.py` isn't ready for run
-1. Install requirements: `pip install -r requirements.txt`
-2. Create `.env` with your OpenRouter free API key
-3. Run the system: `python main.py`
