@@ -1,0 +1,26 @@
+# config/settings.yaml
+system:
+  name: "Autonomous AI Company"
+  version: "v0.0.1+beta" 
+  log_level: "INFO"
+
+memory:
+  enabled: true
+  base_dir: "data/memory"
+
+approval:
+  mode: "auto"   # can be 'auto' or 'manual'
+  timeout: 5     # seconds for manual approval input
+
+logging:
+  save_to_file: true
+  file_path: "logs/system.log"
+
+runtime:
+  max_parallel_tasks: 3
+  retry_limit: 2
+  error_policy: "continue"  # or "halt"
+
+paths:
+  cache_dir: "data/cache"
+  tmp_dir: "data/tmp"

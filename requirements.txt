@@ -1,0 +1,14 @@
+requests
+python-dotenv
+langchain
+chromadb
+autogen-agentchat
+transformers
+sentence-transformers
+fastapi
+uvicorn
+redis
+pydantic
+pyyaml
+loguru
+pytest
