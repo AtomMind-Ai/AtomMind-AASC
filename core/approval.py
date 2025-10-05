@@ -1,5 +1,3 @@
-# core/approval.py
-
 import logging
 import os
 import yaml
@@ -61,3 +59,4 @@ def reviewer_approval_check(review_output: str) -> bool:
     
     logging.info("[Reviewer Approval] No failure detected. Subtask approved.")
     return True
+
