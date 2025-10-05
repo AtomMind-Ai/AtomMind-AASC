@@ -1,5 +1,3 @@
-# agent/review_agent.py
-
 from core.agent_base import BaseAgent
 
 class ReviewAgent(BaseAgent):
