@@ -1,5 +1,3 @@
-# core/workflow.py
-
 import asyncio
 from core.logger import get_logger
 from core.agent_manager import AgentManager
@@ -104,3 +102,4 @@ class AsyncWorkflowManager:
 
     def start_project(self, project_name, subtasks):
         return asyncio.run(self.run_project(project_name, subtasks))
+
