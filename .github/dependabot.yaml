@@ -1,0 +1,16 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  - package-ecosystem: "pip"       # The package manager to update (e.g., pip, npm, maven)
+    directory: "/"                 # Location of your package manifest (requirements.txt or pyproject.toml)
+    schedule:
+      interval: "weekly"           # Options: "daily", "weekly", "monthly"
+    open-pull-requests-limit: 10  # Optional: limit number of open PRs
+    commit-message:
+      prefix: "deps"               # Optional: customize commit messages
+    labels:
+      - "dependencies"
