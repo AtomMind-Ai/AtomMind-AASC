@@ -1,5 +1,3 @@
-# agents/dev_agent.py
-
 from core.agent_base import BaseAgent
 
 class DeveloperAgent(BaseAgent):
@@ -13,3 +11,4 @@ class DeveloperAgent(BaseAgent):
         result = self.think(prompt)
         self.log("Development complete.")
         return result
+
