@@ -1,4 +1,3 @@
-# core/memory.py
 import os
 import json
 from datetime import datetime
@@ -60,3 +59,4 @@ def clear_memory(agent_name: str = None):
     """Clear memory for agent or general memory."""
     mem = {"agent": agent_name or "general", "created": datetime.now().isoformat(), "entries": []}
     save_memory(mem, agent_name)
+
