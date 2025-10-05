@@ -17,5 +17,5 @@ git clone https://github.com/AtomMind-Ai/AtomMind-AASC.git
 2. Then
   - Install requirements: `pip install -r requirements.txt`
   - Replace `CEREBRAS_API_KEY=csk-your-api-key...` with your Cerebras api key
-  - Run the system: `python main.py`
-
+  - Then replace `project_name` variable in `main.py` with your tasks/project idea.
+  - Run the system: `python main.py` and waiting.
