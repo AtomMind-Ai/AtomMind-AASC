@@ -1,4 +1,3 @@
-
 import os
 import json
 from core.task_manager import TaskManager
@@ -56,3 +55,4 @@ def main(fresh_start):
 if __name__ == "__main__":
     # Run fresh start test
     main(fresh_start=True)
+
