@@ -12,3 +12,4 @@ pydantic
 pyyaml
 loguru
 pytest
+urllib3
