@@ -1,5 +1,3 @@
-# core/task_manager.py
-
 import os
 from loguru import logger
 from agents.planner_agent import PlannerAgent
@@ -51,3 +49,4 @@ class TaskManager:
         logger.info(f"📝 Final project report (context) saved: {report_path}")
 
         return {"results": results, "summary": summary, "report": report_path}
+
